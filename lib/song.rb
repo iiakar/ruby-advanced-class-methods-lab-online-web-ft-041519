@@ -14,7 +14,18 @@ end
 
 class Song.create
 
-def initalie 
+def initalize
 
 song = Song.create 
 Song.all.include?(song) 
+end 
+
+class Song.new_by_name 
+  def Song
+    song = Song.new_by_name("The Middle")
+    @name="The Middle"
+    song.name => "The Middle"
+  end
+  
+  def 
+    
