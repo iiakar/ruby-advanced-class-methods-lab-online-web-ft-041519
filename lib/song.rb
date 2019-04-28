@@ -34,5 +34,10 @@ song.name => "The Middle"
 end 
 
 def Song.create_by_name
+song = Song.create_by_name("The Middle")
+ @name="The Middle"
+song
 
+Song.all.include?(song)
+=> true
     
