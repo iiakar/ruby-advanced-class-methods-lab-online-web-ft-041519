@@ -27,6 +27,6 @@ class Song.new_by_name
     song.name => "The Middle"
   end
   
-  def 
+  def Song.new_by_name
      
     
