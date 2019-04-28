@@ -33,5 +33,6 @@ class Song.new_by_name
 song.name => "The Middle"
 end 
 
-def 
+def Song.create_by_name
+
     
