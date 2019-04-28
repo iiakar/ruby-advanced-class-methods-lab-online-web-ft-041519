@@ -21,11 +21,12 @@ Song.all.include?(song)
 end 
 
 class Song.new_by_name 
-  def Song
-    song = Song.new_by_name("The Middle")
+  def Song.new_by_name
+  song = Song.new_by_name("The Middle")
     @name="The Middle"
     song.name => "The Middle"
   end
   
   def 
+     
     
