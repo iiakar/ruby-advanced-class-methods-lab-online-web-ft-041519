@@ -28,6 +28,10 @@ class Song.new_by_name
   end
   
   def Song.new_by_name
-    
-     
+    song = Song.new_by_name("The Middle")
+=> <Song @name="The Middle">
+song.name => "The Middle"
+end 
+
+def 
     
