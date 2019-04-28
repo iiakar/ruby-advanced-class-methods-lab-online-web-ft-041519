@@ -12,7 +12,9 @@ class Song
 
 end
 
+class Song.create
 
+def initalie 
 
 song = Song.create 
 Song.all.include?(song) 
